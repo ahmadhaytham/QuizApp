@@ -32,8 +32,8 @@ public class QuizApp {
                 quiz.generateQuiz();
             }
             if (answer.equalsIgnoreCase("y")) {
-                System.out.println("to answer a question just type in the answer as provided in the possible answers list");
-                System.out.println("--------------------------------------------------------------------------------------");
+                System.out.println("to answer a question just type in the answer charactar as provided in the possible answers list");
+                System.out.println("------------------------------------------------------------------------------------------------");
                 ArrayList<Question> questions = quiz.getQuestions();
 //                System.out.println(questions);
 //                System.out.println(questions.size());
